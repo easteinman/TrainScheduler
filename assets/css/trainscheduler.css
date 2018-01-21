@@ -1,0 +1,14 @@
+/* Main Heading in the Jumbotron */
+h1 {
+	text-align: center;
+}
+
+/* The smaller text under the jumbotron header */
+.lead {
+	text-align: center;
+}
+
+/* All divs with the class "card" */
+.card {
+	margin: 25px auto 25px auto;
+}
