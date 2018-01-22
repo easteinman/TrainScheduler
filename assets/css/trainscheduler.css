@@ -1,14 +1,47 @@
+body {
+	background-color: #440044 !important;
+}
+
+.container {
+	width: 960px !important;
+	margin: 0 auto !important;
+}
+
 /* Main Heading in the Jumbotron */
 h1 {
+	font-family: 'Monoton', cursive !important;
 	text-align: center;
+}
+
+h5 {
+	font-family: 'Contrail One', cursive !important;
+	color: #fff !important;
 }
 
 /* The smaller text under the jumbotron header */
 .lead {
 	text-align: center;
+	color: red;
+	font-family: 'Contrail One', cursive !important;
 }
 
 /* All divs with the class "card" */
 .card {
 	margin: 25px auto 25px auto;
+	border-color: #000 !important;
+}
+
+.jumbotron {
+	margin: 25px auto 25px auto;
+	background-color: #000 !important;
+	color: #fff;
+	border-radius: 25px !important;
+}
+
+.card-header {
+	background-color: #000 !important;
+}
+
+#add-train-btn {
+	background-color: #000 !important;
 }
