@@ -1,7 +1,6 @@
 /* The smaller text under the jumbotron header */
 .lead {
 	text-align: center;
-	font-family: 'Contrail One', cursive;
 	color: red;
 }
 
@@ -12,12 +11,10 @@
 
 .jumbotron {
 	margin: 25px auto 25px auto;
-	font-family: 'Monoton', cursive;
 	text-align: center;
 }
 
 .card-header {
-	font-family: 'Contrail One', cursive;
 	color: red;
 }
 
