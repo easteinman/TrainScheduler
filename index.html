@@ -14,6 +14,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
     <title>Train Schedules</title>
   </head>
   <body>
@@ -35,7 +38,7 @@
       <div class="card">
         <h5 class="card-header">Current Train Schedule</h5>
         <div class="card-body">
-          <table class="table">
+          <table class="table" id="train-table">
             <thead>
               <tr>
                 <th scope="col">Train Name</th>
@@ -73,8 +76,8 @@
 
             <!-- First Train Time Input -->
             <div class="form-group">
-              <label for="train-time-input">First Train Time (HH:mm - 24 hour time)</label>
-              <input type="text" class="form-control" id="train-time-input">
+              <label for="first-train-input">First Train Time (HH:mm - 24 hour time)</label>
+              <input type="text" class="form-control" id="first-train-input">
             </div>
 
             <!-- Frequency Input -->
@@ -95,13 +98,16 @@
     </div>
     <!-- Whole Page Container (End) -->
 
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
 
     <!-- My JavaScript File -->
     <script src="assets/javascript/trainscheduler.js"></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.js"></script>
 
+    <!-- Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
