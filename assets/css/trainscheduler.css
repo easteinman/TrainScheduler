@@ -1,23 +1,44 @@
+body {
+	background-color: #000;
+}
+
+h1 {
+	color: #fff;
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
+.table {
+	font-family: 'Cinzel', serif;
+}
+
 /* The smaller text under the jumbotron header */
 .lead {
+	font-family: 'Cinzel', serif;
 	text-align: center;
-	color: red;
+	color: #d8b853;
 }
 
 /* All divs with the class "card" */
 .card {
+	font-family: 'Cinzel', serif;
 	margin: 25px auto 25px auto;
+	border-color: #000;
 }
 
 .jumbotron {
+	background-color: #a7231c;
 	margin: 25px auto 25px auto;
 	text-align: center;
+	border-radius: 25px;
 }
 
 .card-header {
-	color: red;
+	font-family: 'Cinzel', serif;
+	background-color: #a7231c;
+	color: #d8b853;
 }
 
 #add-train-btn {
-	background-color: #000;
+	color: #d8b853;
+	background-color: #a7231c;
 }
